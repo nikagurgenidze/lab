@@ -1,0 +1,57 @@
+
+body, html {
+	background-color: grey;
+	margin: 2px;
+}
+
+
+
+
+#menu {
+
+	background-color: lightgrey;
+	margin-left: 50px;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+
+#menu span {
+
+  
+	height: 5px;
+	width: 35px;
+	background-color: red;
+	display: block;
+	margin: 2px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.down:hover {
+ 
+	background-color: black;
+	transform: rotate(45deg);
+	position: relative;
+	top:10px;
+
+}
+
+
+.bitt:hover{
+
+
+	 display: none;
+
+}
+   .up:hover {
+
+	background-color: black;
+	transform: rotate(-45deg);
+	line-height: 10px;
+	position: relative;
+	top:-10px;
+}
