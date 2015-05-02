@@ -20,6 +20,7 @@ body, html {
 .down:hover {
 	background-color: black;
 	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
 	position: relative;
 	top:10px;
 }
