@@ -30,10 +30,8 @@ body, html {
 
 
 
-    .nav {
-        width: 200px;
-        height: 700px;
-        background-color: lightgrey;
+        
+    .nav {     
         position: relative;
         min-height: 20px;
         display: none;
@@ -51,6 +49,9 @@ body, html {
     
 
     .nav a {
+        
+        background-color: lightgrey;
+        color: yellow;
         display: block;
         padding: 10px 10px 10px 32px;
         text-align: left;
@@ -80,6 +81,7 @@ body, html {
     line-height: 10px;
     position: relative;
     top:-3.7px;
+
 }
 
 
@@ -90,10 +92,13 @@ body, html {
     }
 
     .nav ul{
-        display: inline-block;
+        display: none;
     }
     .nav {
         display: block;
+    }
+    .nav1{
+        display: none;
     }
 }
  

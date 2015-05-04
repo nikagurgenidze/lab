@@ -11,5 +11,13 @@ $( document ).ready(function() { // A page can't be manipulated safely until the
 
 });
 
+$(document).ready(function(){
+    $("#menu").click(function(){
+        $(".nav1").toggle();
+    });
+
+
+   
+});
 
 
